@@ -1,0 +1,14 @@
+input_log = "./logs/access.log"
+pos_file = "./logs/logsep.pos"
+user = ""
+group = ""
+
+[[output_log]]
+name = "access_log"   # must required
+path = "./logs"       # must required
+file = "access_log"   # if not set, use name parameter
+
+[[output_log]]
+name = "verbose_log"  # must required
+path = "./logs"       # must required
+file = "verbose_log"  # if not set, use name parameter
