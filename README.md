@@ -1,2 +1,3 @@
-# lsws-log-seperator
-Log Seperator for Litespeed Web Server (If you needs more than 2 access logs with lsws)
+# log-separator
+
+Log Separator create each logs from one integrated logs
